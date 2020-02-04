@@ -8,7 +8,7 @@ import markdown
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 parser = argparse.ArgumentParser(description="Generate pylondinium.org website.")
-parser.add_argument("--base", default="https://pylondinium.org/", help="Base URL")
+parser.add_argument("--base", default="https://pedro.alvarezpiedehierro.com/pylondinium.github.io/", help="Base URL")
 
 args = parser.parse_args()
 
